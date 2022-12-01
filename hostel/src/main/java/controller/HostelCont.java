@@ -12,7 +12,7 @@ import service.HostelSer;
 public class HostelCont {
 	@Autowired
 	HostelSer ser;
-	
+	//hfhhfdsfhh
 	@GetMapping("/getO/{id}")
 	public HostelModel getOne(@PathVariable int id) {
 		return ser.getHostel(id);
