@@ -10,6 +10,7 @@ import service.HostelSer;
 
 @RestController
 public class HostelCont {
+	//comment
 	@Autowired
 	HostelSer ser;
 	//hfhhfdsfhh
